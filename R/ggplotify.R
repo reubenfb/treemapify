@@ -117,9 +117,9 @@ ggplotify <- function(
     Plot <- Plot + geom_rect(
       data = groupRects,
       mapping = aes(xmin = xmin, xmax = xmax, ymin = ymin, ymax = ymax),
-      colour = "grey",
+      colour = "black",
       fill = NA,
-      size = 1.2
+      size = 1
     )
   }
 
