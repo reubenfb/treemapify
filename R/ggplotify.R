@@ -82,7 +82,7 @@ ggplotify <- function(
     xmax = xmax,
     ymin = ymin,
     ymax = ymax
-  ), fill = NA, colour = "grey", size = 0.2)
+  ), fill = NA, colour = "white", size = 0.2)
 
   # Blank out extraneous plot elements
   Plot <- Plot + theme(
